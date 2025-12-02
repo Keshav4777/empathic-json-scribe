@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+🚀 Mental Health + Relationship AI App
 
-## Project info
+A modern, fast, and scalable application built with React, TypeScript, Vite, Tailwind CSS, and shadcn UI.
 
-**URL**: https://lovable.dev/projects/a2e19c3f-5318-4df7-986e-a8e221f8704f
+This project is being developed fully from scratch without Lovable, using standard local development + GitHub workflow.
 
-## How can I edit this code?
+✨ Features
 
-There are several ways of editing your application.
+🔥 Fast development with Vite
 
-**Use Lovable**
+⚛️ React + TypeScript for scalable UI
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a2e19c3f-5318-4df7-986e-a8e221f8704f) and start prompting.
+🎨 Tailwind CSS for clean, responsive styling
 
-Changes made via Lovable will be committed automatically to this repo.
+🧩 shadcn UI for professional components
 
-**Use your preferred IDE**
+🤖 AI modules (Emotion Detection, Relationship Coach)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🌙 Sleep Mode (Mental Health Feature)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+📱 Fully responsive mobile interface
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+📦 Tech Stack
+Layer	Technology
+Frontend	React, TypeScript
+Styling	Tailwind CSS, shadcn UI
+Build Tool	Vite
+State Management	(You can add: Zustand / Redux / Context API)
+API / AI	(To be added: Node.js + Express / Firebase / Supabase)
+🛠️ Getting Started (Local Development)
+1. Clone the repo
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+2. Navigate into the project
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Start development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Your app will now be live on:
 
-**Use GitHub Codespaces**
+http://localhost:5173
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📁 Project Structure
+project/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── lib/
+│   ├── hooks/
+│   ├── assets/
+│   └── App.tsx
+│── public/
+│── index.html
+│── package.json
+│── tailwind.config.js
+│── README.md
 
-## What technologies are used for this project?
+🎨 UI Components (shadcn UI)
 
-This project is built with:
+All components are installed and customizable.
+You can generate new ones using:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+npx shadcn-ui add <component>
 
-## How can I deploy this project?
+🤖 AI Modules (Coming Soon)
 
-Simply open [Lovable](https://lovable.dev/projects/a2e19c3f-5318-4df7-986e-a8e221f8704f) and click on Share -> Publish.
+Your project will include:
 
-## Can I connect a custom domain to my Lovable project?
+Emotion Detection
 
-Yes, you can!
+Context Analyzer
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Relationship Coach
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Sleep Mode AI
+
+Identity-Based Motivation
+
+These modules will be added in /src/ai/ folder.
+
+🚀 Deployment
+
+You can deploy using:
+
+Vercel
+
+Netlify
+
+GitHub Pages
+
+Cloudflare Pages
+
+Example (Vercel):
+
+vercel deploy
